@@ -4,7 +4,6 @@ const delay = ms => {
       resolve(ms);
     }, ms);
   });
-  // Change this function
 };
 
 const logger = time => console.log(`Fulfilled after ${time}ms`);
